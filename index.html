@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhishek's Portfolio</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="16x16"/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="16x16" />
     <style>
         body {
             font-family: 'Poppins', sans-serif;
@@ -24,11 +24,11 @@
 
         .homepage {
             height: 100vh;
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.8)), url('https://i.postimg.cc/1tgbj9qb/1.jpg') center center/cover no-repeat;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url('introBG.jpg') center center/cover no-repeat;
         }
 
         .section2 {
-            background: linear-gradient(rgb(0, 1, 0, 1), rgba(21, 26, 31, 0), rgb(0, 0, 0, 0.9)), url('https://i.postimg.cc/N07d4xk9/2.jpg') fixed center/cover no-repeat;
+            background: linear-gradient(#000100, rgba(21, 26, 31, 0.5), #000100), url('https://i.postimg.cc/yY5H2Svv/IMG-0878.jpg') fixed center/cover no-repeat;
             color: white;
             text-align: center;
             margin-top: 100px;
@@ -37,24 +37,30 @@
             justify-content: center;
         }
 
+        .secCombine{
+            background: linear-gradient(#000100, rgba(21, 26, 31, 0.5), #000100), url('https://i.postimg.cc/HxQDyZgN/IMG-0879.jpg') fixed center/cover no-repeat;
+        }
         .section3 {
-            background: linear-gradient(#000100, rgba(21, 26, 31, 0), #000100), url('https://i.postimg.cc/wjkW5VVt/3.jpg') fixed center/cover no-repeat;
+            /* background: linear-gradient(#000100, rgba(21, 26, 31, 0.5), #000100), url('https://i.postimg.cc/HxQDyZgN/IMG-0879.jpg') fixed center/cover no-repeat; */
             color: white;
             text-align: center;
             display: flex;
             flex-direction: column;
             justify-content: center;
             /* height: 50vh; */
+            margin: 150px 0;
         }
 
         .section4 {
-            background: linear-gradient(#000100, rgba(21, 26, 31, 0), rgb(0, 1, 0, 1)), url('https://i.postimg.cc/wjkW5VVt/3.jpg') fixed center/cover no-repeat;
+            /* background: linear-gradient(#000100, rgba(21, 26, 31, 0.5), #000100), url('https://i.postimg.cc/HxQDyZgN/IMG-0879.jpg') fixed center/cover no-repeat; */
             color: white;
             text-align: center;
             display: flex;
             flex-direction: column;
             justify-content: center;
             /* height: 100vh; */
+            margin-top: 150px;
+            margin-bottom: 100px;
         }
 
 
@@ -187,9 +193,9 @@
                         <div class="flex gap-2.5 flex-row sm:justify-center lg:justify-start">
                             <a href="#testimonialHref" id="scroll-link"
                                 class="inline-block rounded-full bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Videos</a>
-                                
-                            <a href="#videosHref" id="scroll-link"
-                                class="inline-block rounded-full bg-gray-100 px-8 py-3 text-center text-sm font-semibold text-black outline-none ring-indigo-300 transition duration-100 hover:bg-gray-400 focus-visible:ring active:bg-indigo-700 md:text-base">Thumbnails</a>
+
+                            <a href="#videosHref" id="scroll-link2"
+                                class="inline-block rounded-full bg-gray-100 px-8 py-3 text-center text-sm font-semibold text-black outline-none ring-indigo-300 transition duration-100 hover:bg-gray-400 focus-visible:ring md:text-base">Thumbnails</a>
                         </div>
                     </div>
                     <!-- content - end -->
@@ -197,8 +203,7 @@
                     <!-- image - start -->
                     <div
                         class="md:h-[50vh] h-[35vh] bg-red-100 aspect-square overflow-hidden rounded-full items-center flex justify-center bg-gray-100 shadow-lg">
-                        <img src="https://i.postimg.cc/QxYDQby6/Whats-App-Image-2024-07-05-at-9-38-11-AM.jpg"
-                            loading="lazy" class="h-full w-full object-cover object-center" />
+                        <img src="IMG_4660.jpeg" loading="lazy" class="h-full w-full object-cover object-center" />
                     </div>
                     <!-- image - end -->
                 </section>
@@ -224,39 +229,47 @@
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-    </div>
-
-    <div class="section3">
-        <h1>Long Form Videos</h1>
-        <div class="longForms">
-            <iframe width="560" height="315"
-                src="https://www.youtube-nocookie.com/embed/5-zGUTl80Po?si=MfSPGH4eSWrisUIC&amp;controls=0"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
             <iframe width="560" height="315"
-                src="https://www.youtube-nocookie.com/embed/AQEf9TKU2IY?si=pjBT-hTuT1F7bG4H&amp;controls=0"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-            <iframe width="560" height="315"
-                src="https://www.youtube-nocookie.com/embed/SDrdgRsmQ2Q?si=g943UUKFE_6RxVIe&amp;controls=0"
+                src="https://www.youtube-nocookie.com/embed/XK0LjtQN2ik?si=za6Nb_l2lFKRa9Ei"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </div>
 
-    <div class="section4" id="videosHref">
-        <h1>Thumbnails</h1>
-        <div class="thumbnails">
-            <img src="https://i.postimg.cc/5t8bTqZ5/Whats-App-Image-2024-07-05-at-9-42-56-AM.jpg">
-            <img src="https://i.postimg.cc/BbVrXXrQ/Whats-App-Image-2024-07-05-at-9-42-55-AM.jpg">
-            <img src="https://i.postimg.cc/kXVrLvSV/Whats-App-Image-2024-07-05-at-9-42-35-AM-1.jpg">
-            <img src="https://i.postimg.cc/4ymMkXYC/Whats-App-Image-2024-07-05-at-9-42-35-AM.jpg">
+    <div class="secCombine">
+        <div class="section3">
+            <h1>Long Form Videos</h1>
+            <div class="longForms">
+                <iframe width="560" height="315"
+                    src="https://www.youtube-nocookie.com/embed/5-zGUTl80Po?si=MfSPGH4eSWrisUIC&amp;controls=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <iframe width="560" height="315"
+                    src="https://www.youtube-nocookie.com/embed/AQEf9TKU2IY?si=pjBT-hTuT1F7bG4H&amp;controls=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <iframe width="560" height="315"
+                    src="https://www.youtube-nocookie.com/embed/SDrdgRsmQ2Q?si=g943UUKFE_6RxVIe&amp;controls=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="section4" id="videosHref">
+            <h1>Thumbnails</h1>
+            <div class="thumbnails">
+                <img src="https://i.postimg.cc/5t8bTqZ5/Whats-App-Image-2024-07-05-at-9-42-56-AM.jpg">
+                <img src="https://i.postimg.cc/BbVrXXrQ/Whats-App-Image-2024-07-05-at-9-42-55-AM.jpg">
+                <img src="https://i.postimg.cc/kXVrLvSV/Whats-App-Image-2024-07-05-at-9-42-35-AM-1.jpg">
+                <img src="https://i.postimg.cc/4ymMkXYC/Whats-App-Image-2024-07-05-at-9-42-35-AM.jpg">
+            </div>
         </div>
     </div>
 
@@ -273,9 +286,8 @@
                 <div class="flex flex-col items-center border-t border-slate-800 pt-6">
                     <!-- social - start -->
                     <div class="flex gap-4 items-center">
-                        <a href="https://www.instagram.com/ajay__sharma.__/" target="_blank"
-                            class="text-[#808080]">
-                            <svg class=width="25" height="25" viewBox="0 0 24 24" fill="currentColor"
+                        <a href="https://www.instagram.com/ajay__sharma.__/" target="_blank" class="text-[#808080]" style="width: 25px; height: 25px;">
+                            <svg viewBox="0 0 24 24" fill="currentColor"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
@@ -283,8 +295,8 @@
                         </a>
 
                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ds524904@gmail.com" target="_blank"
-                            class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600" style="width: 30px; height: 30px;"><img
-                                src="email-svgrepo-com.svg" alt=""></a>
+                            class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
+                            style="width: 30px; height: 30px;"><img src="email-svgrepo-com.svg" alt=""></a>
                     </div>
                     <!-- social - end -->
                 </div>
@@ -368,8 +380,8 @@
     <script>
         // Function to handle scrolling animation
         function scrollToTarget() {
-            const targetSection = document.querySelector("videosHref");
-            const scrollLink = document.querySelector("#scroll-link");
+            const targetSection = document.querySelector("#videosHref");
+            const scrollLink = document.querySelector("#scroll-link2");
 
             // Prevent default anchor behavior
             scrollLink.addEventListener("click", function (event) {
