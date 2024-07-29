@@ -67,10 +67,12 @@
 
         .shorts {
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
             gap: 24px;
             margin: 24px 0;
+            padding: 0 15%;
         }
 
         .shorts video {
@@ -237,6 +239,7 @@
             <video src="2.mp4" autoplay loop muted controls playsinline></video>
             <video src="3.mp4" autoplay loop muted controls playsinline></video>
             <video src="4.mp4" autoplay loop muted controls playsinline></video>
+            <video src="5.mp4" autoplay loop muted controls playsinline></video>
         </div>
     </div>
 
@@ -258,6 +261,12 @@
 
                 <iframe width="560" height="315"
                     src="https://www.youtube-nocookie.com/embed/SDrdgRsmQ2Q?si=g943UUKFE_6RxVIe&amp;controls=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <iframe width="560" height="315"
+                    src="https://www.youtube-nocookie.com/embed/hvEucAL__lY?si=g943UUKFE_6RxVIe&amp;controls=0"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -287,7 +296,7 @@
             <footer class="mx-auto max-w-screen-2xl px-4 md:px-8">
                 <div class="flex flex-col items-center border-t border-slate-800 pt-6">
                     <!-- social - start -->
-                    <div class="flex gap-4 items-center">
+                    <!-- <div class="flex gap-4 items-center">
                         <a href="https://www.instagram.com/ajay__sharma.__/" target="_blank" class="text-[#808080]"
                             style="width: 25px; height: 25px;">
                             <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -299,7 +308,7 @@
                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ds524904@gmail.com" target="_blank"
                             class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
                             style="width: 30px; height: 30px;"><img src="email-svgrepo-com.svg" alt=""></a>
-                    </div>
+                    </div> -->
                     <!-- social - end -->
                 </div>
 
